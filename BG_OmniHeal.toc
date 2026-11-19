@@ -1,0 +1,62 @@
+## Interface: 120105, 120107, 16001
+## Title: BG OmniHeal
+## Notes: Ally and enemy battleground frames with healing auras, dispels and crowd control. Type /oh setup for a guided preview or /oh for settings.
+## Author: Lavet
+## Version: 5.0.1-local
+## Category: PvP
+## SavedVariables: OmniHealDB
+## IconTexture: Interface\AddOns\BG_OmniHeal\Media\icon
+## AddonCompartmentFunc: OmniHeal_OnAddonCompartmentClick
+
+Core\Addon.lua
+Core\Defaults.lua
+Core\SavedVariables.lua
+Battleground\Mode.lua
+
+Locales\Loader.lua
+Locales\enUS.lua
+Locales\deDE.lua
+Locales\esES.lua
+Locales\frFR.lua
+Locales\itIT.lua
+Locales\ptBR.lua
+Locales\ruRU.lua
+Locales\koKR.lua
+Locales\zhCN.lua
+Locales\zhTW.lua
+
+Frames\Theme.lua
+Battleground\Roster.lua
+Frames\Row.lua
+Frames\AuraEffects.lua
+Frames\AuraIcons.lua
+Frames\Panels.lua
+Battleground\Live.lua
+
+Auras\SpellLists.lua
+Auras\AnimationSettings.lua
+Auras\Tracker.lua
+
+Battleground\PremadeScanner.lua
+Battleground\Carriers.lua
+Frames\OtherRaidFrames.lua
+Core\Profiles.lua
+
+Settings\Pages.lua
+Settings\Controls.lua
+Settings\General.lua
+Settings\Frames.lua
+Settings\Auras.lua
+Settings\Indicators.lua
+Settings\Appearance.lua
+Settings\Animations.lua
+Settings\Profiles.lua
+Settings\Window.lua
+Settings\BlizzardEntry.lua
+Settings\MinimapButton.lua
+
+Tools\Preview.lua
+Tools\Diagnostics.lua
+Settings\SetupWindow.lua
+Settings\GuidedSetup.lua
+Core\Commands.lua
